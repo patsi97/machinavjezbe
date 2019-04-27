@@ -59,15 +59,20 @@ int main()
 	
 	int playerNumber;
 	std:: string username;
-	std::cout<< "Enter which player you want to be (1,2,3) and enter your username: ";
 	
+	
+	
+	
+	std::cout<< "Enter which player you want to be (1,2,3) ";
 	std::cin >> playerNumber;
+	
+	std::cout<< "Enter your username: ";
 	std::cin >> username;
 	
 			switch (playerNumber)
 		{
 		case 1:
-			std::cin >> playerOne.userName;
+			playerOne.userName = username;
 			break;
 		case 2:
 			playerTwo.userName = username;
