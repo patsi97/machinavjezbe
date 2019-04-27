@@ -27,12 +27,16 @@ public:
 		hp -= amount;
 	}
 
-};
 
-void move(int& x, int& y, int& velocity) {
 
-	x += velocity;
-	y += velocity;
+	void move(int& x, int& y, int& velocity) {
+
+		x += velocity;
+		y += velocity;
+	}
+private:
+	std::string privateString;
+
 }
 
 int main()
@@ -59,9 +63,6 @@ int main()
 	
 	int playerNumber;
 	std:: string username;
-	
-	
-	
 	
 	std::cout<< "Enter which player you want to be (1,2,3) ";
 	std::cin >> playerNumber;
