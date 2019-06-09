@@ -1,2 +1,3 @@
 ﻿  main.cpp
+c:\users\patricia\desktop\dev\machinavjezbe\basicsoop\main.cpp(149): warning C4305: 'initializing': truncation from 'double' to 'float'
   BasicsOOP.vcxproj -> C:\Users\Patricia\Desktop\Dev\machinavjezbe\BasicsOOP\Debug\BasicsOOP.exe
